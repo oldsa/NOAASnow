@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CFD9888627E2724000A447A7 /* NOAASnowApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD9888527E2724000A447A7 /* NOAASnowApp.swift */; };
+		CFD9888827E2724000A447A7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD9888727E2724000A447A7 /* ContentView.swift */; };
+		CFD9888A27E2724100A447A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFD9888927E2724100A447A7 /* Assets.xcassets */; };
+		CFD9888D27E2724100A447A7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFD9888C27E2724100A447A7 /* Preview Assets.xcassets */; };
+		CFD9889727E2724100A447A7 /* NOAASnowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD9889627E2724100A447A7 /* NOAASnowTests.swift */; };
+		CFD988A127E2724200A447A7 /* NOAASnowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD988A027E2724200A447A7 /* NOAASnowUITests.swift */; };
+		CFD988A327E2724200A447A7 /* NOAASnowUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD988A227E2724200A447A7 /* NOAASnowUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CFD9889327E2724100A447A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFD9887A27E2724000A447A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFD9888127E2724000A447A7;
+			remoteInfo = NOAASnow;
+		};
+		CFD9889D27E2724200A447A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFD9887A27E2724000A447A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFD9888127E2724000A447A7;
+			remoteInfo = NOAASnow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CFD9888227E2724000A447A7 /* NOAASnow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NOAASnow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFD9888527E2724000A447A7 /* NOAASnowApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NOAASnowApp.swift; sourceTree = "<group>"; };
+		CFD9888727E2724000A447A7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CFD9888927E2724100A447A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFD9888C27E2724100A447A7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CFD9889227E2724100A447A7 /* NOAASnowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NOAASnowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFD9889627E2724100A447A7 /* NOAASnowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NOAASnowTests.swift; sourceTree = "<group>"; };
+		CFD9889C27E2724200A447A7 /* NOAASnowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NOAASnowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFD988A027E2724200A447A7 /* NOAASnowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NOAASnowUITests.swift; sourceTree = "<group>"; };
+		CFD988A227E2724200A447A7 /* NOAASnowUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NOAASnowUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFD9887F27E2724000A447A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFD9888F27E2724100A447A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFD9889927E2724200A447A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CFD9887927E2724000A447A7 = {
+			isa = PBXGroup;
+			children = (
+				CFD9888427E2724000A447A7 /* NOAASnow */,
+				CFD9889527E2724100A447A7 /* NOAASnowTests */,
+				CFD9889F27E2724200A447A7 /* NOAASnowUITests */,
+				CFD9888327E2724000A447A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFD9888327E2724000A447A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFD9888227E2724000A447A7 /* NOAASnow.app */,
+				CFD9889227E2724100A447A7 /* NOAASnowTests.xctest */,
+				CFD9889C27E2724200A447A7 /* NOAASnowUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFD9888427E2724000A447A7 /* NOAASnow */ = {
+			isa = PBXGroup;
+			children = (
+				CFD9888527E2724000A447A7 /* NOAASnowApp.swift */,
+				CFD9888727E2724000A447A7 /* ContentView.swift */,
+				CFD9888927E2724100A447A7 /* Assets.xcassets */,
+				CFD9888B27E2724100A447A7 /* Preview Content */,
+			);
+			path = NOAASnow;
+			sourceTree = "<group>";
+		};
+		CFD9888B27E2724100A447A7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CFD9888C27E2724100A447A7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CFD9889527E2724100A447A7 /* NOAASnowTests */ = {
+			isa = PBXGroup;
+			children = (
+				CFD9889627E2724100A447A7 /* NOAASnowTests.swift */,
+			);
+			path = NOAASnowTests;
+			sourceTree = "<group>";
+		};
+		CFD9889F27E2724200A447A7 /* NOAASnowUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CFD988A027E2724200A447A7 /* NOAASnowUITests.swift */,
+				CFD988A227E2724200A447A7 /* NOAASnowUITestsLaunchTests.swift */,
+			);
+			path = NOAASnowUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFD9888127E2724000A447A7 /* NOAASnow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFD988A627E2724200A447A7 /* Build configuration list for PBXNativeTarget "NOAASnow" */;
+			buildPhases = (
+				CFD9887E27E2724000A447A7 /* Sources */,
+				CFD9887F27E2724000A447A7 /* Frameworks */,
+				CFD9888027E2724000A447A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NOAASnow;
+			productName = NOAASnow;
+			productReference = CFD9888227E2724000A447A7 /* NOAASnow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CFD9889127E2724100A447A7 /* NOAASnowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFD988A927E2724200A447A7 /* Build configuration list for PBXNativeTarget "NOAASnowTests" */;
+			buildPhases = (
+				CFD9888E27E2724100A447A7 /* Sources */,
+				CFD9888F27E2724100A447A7 /* Frameworks */,
+				CFD9889027E2724100A447A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFD9889427E2724100A447A7 /* PBXTargetDependency */,
+			);
+			name = NOAASnowTests;
+			productName = NOAASnowTests;
+			productReference = CFD9889227E2724100A447A7 /* NOAASnowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CFD9889B27E2724200A447A7 /* NOAASnowUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFD988AC27E2724200A447A7 /* Build configuration list for PBXNativeTarget "NOAASnowUITests" */;
+			buildPhases = (
+				CFD9889827E2724200A447A7 /* Sources */,
+				CFD9889927E2724200A447A7 /* Frameworks */,
+				CFD9889A27E2724200A447A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFD9889E27E2724200A447A7 /* PBXTargetDependency */,
+			);
+			name = NOAASnowUITests;
+			productName = NOAASnowUITests;
+			productReference = CFD9889C27E2724200A447A7 /* NOAASnowUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFD9887A27E2724000A447A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					CFD9888127E2724000A447A7 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					CFD9889127E2724100A447A7 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = CFD9888127E2724000A447A7;
+					};
+					CFD9889B27E2724200A447A7 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = CFD9888127E2724000A447A7;
+					};
+				};
+			};
+			buildConfigurationList = CFD9887D27E2724000A447A7 /* Build configuration list for PBXProject "NOAASnow" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFD9887927E2724000A447A7;
+			productRefGroup = CFD9888327E2724000A447A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFD9888127E2724000A447A7 /* NOAASnow */,
+				CFD9889127E2724100A447A7 /* NOAASnowTests */,
+				CFD9889B27E2724200A447A7 /* NOAASnowUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFD9888027E2724000A447A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFD9888D27E2724100A447A7 /* Preview Assets.xcassets in Resources */,
+				CFD9888A27E2724100A447A7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFD9889027E2724100A447A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFD9889A27E2724200A447A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFD9887E27E2724000A447A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFD9888827E2724000A447A7 /* ContentView.swift in Sources */,
+				CFD9888627E2724000A447A7 /* NOAASnowApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFD9888E27E2724100A447A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFD9889727E2724100A447A7 /* NOAASnowTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFD9889827E2724200A447A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFD988A327E2724200A447A7 /* NOAASnowUITestsLaunchTests.swift in Sources */,
+				CFD988A127E2724200A447A7 /* NOAASnowUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CFD9889427E2724100A447A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFD9888127E2724000A447A7 /* NOAASnow */;
+			targetProxy = CFD9889327E2724100A447A7 /* PBXContainerItemProxy */;
+		};
+		CFD9889E27E2724200A447A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFD9888127E2724000A447A7 /* NOAASnow */;
+			targetProxy = CFD9889D27E2724200A447A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CFD988A427E2724200A447A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 15.2;
+			};
+			name = Debug;
+		};
+		CFD988A527E2724200A447A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = appletvos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TVOS_DEPLOYMENT_TARGET = 15.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFD988A727E2724200A447A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NOAASnow/Preview Content\"";
+				DEVELOPMENT_TEAM = JL3V78ZMPS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.practice.NOAASnow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		CFD988A827E2724200A447A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NOAASnow/Preview Content\"";
+				DEVELOPMENT_TEAM = JL3V78ZMPS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.practice.NOAASnow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
+		CFD988AA27E2724200A447A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JL3V78ZMPS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.practice.NOAASnowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NOAASnow.app/NOAASnow";
+				TVOS_DEPLOYMENT_TARGET = 15.2;
+			};
+			name = Debug;
+		};
+		CFD988AB27E2724200A447A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JL3V78ZMPS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.practice.NOAASnowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NOAASnow.app/NOAASnow";
+				TVOS_DEPLOYMENT_TARGET = 15.2;
+			};
+			name = Release;
+		};
+		CFD988AD27E2724200A447A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JL3V78ZMPS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.practice.NOAASnowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = NOAASnow;
+			};
+			name = Debug;
+		};
+		CFD988AE27E2724200A447A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JL3V78ZMPS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.practice.NOAASnowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = NOAASnow;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFD9887D27E2724000A447A7 /* Build configuration list for PBXProject "NOAASnow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFD988A427E2724200A447A7 /* Debug */,
+				CFD988A527E2724200A447A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFD988A627E2724200A447A7 /* Build configuration list for PBXNativeTarget "NOAASnow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFD988A727E2724200A447A7 /* Debug */,
+				CFD988A827E2724200A447A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFD988A927E2724200A447A7 /* Build configuration list for PBXNativeTarget "NOAASnowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFD988AA27E2724200A447A7 /* Debug */,
+				CFD988AB27E2724200A447A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFD988AC27E2724200A447A7 /* Build configuration list for PBXNativeTarget "NOAASnowUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFD988AD27E2724200A447A7 /* Debug */,
+				CFD988AE27E2724200A447A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFD9887A27E2724000A447A7 /* Project object */;
+}
