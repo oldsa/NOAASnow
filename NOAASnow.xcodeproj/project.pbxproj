@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF9ACFB927E939D10054FABD /* ForecastPeriodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9ACFB827E939D10054FABD /* ForecastPeriodView.swift */; };
 		CFD9888627E2724000A447A7 /* NOAASnowApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD9888527E2724000A447A7 /* NOAASnowApp.swift */; };
 		CFD9888827E2724000A447A7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD9888727E2724000A447A7 /* ContentView.swift */; };
 		CFD9888A27E2724100A447A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFD9888927E2724100A447A7 /* Assets.xcassets */; };
@@ -14,6 +15,11 @@
 		CFD9889727E2724100A447A7 /* NOAASnowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD9889627E2724100A447A7 /* NOAASnowTests.swift */; };
 		CFD988A127E2724200A447A7 /* NOAASnowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD988A027E2724200A447A7 /* NOAASnowUITests.swift */; };
 		CFD988A327E2724200A447A7 /* NOAASnowUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD988A227E2724200A447A7 /* NOAASnowUITestsLaunchTests.swift */; };
+		CFD988B027E272A600A447A7 /* NOAAService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD988AF27E272A600A447A7 /* NOAAService.swift */; };
+		CFD988B327E2777800A447A7 /* Forecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD988B227E2777800A447A7 /* Forecast.swift */; };
+		CFD988B627E2804800A447A7 /* ForecastDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD988B527E2804800A447A7 /* ForecastDetail.swift */; };
+		CFD988B827E282AE00A447A7 /* Resort.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD988B727E282AE00A447A7 /* Resort.swift */; };
+		CFD988BA27E2833900A447A7 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD988B927E2833900A447A7 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CF9ACFB827E939D10054FABD /* ForecastPeriodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastPeriodView.swift; sourceTree = "<group>"; };
 		CFD9888227E2724000A447A7 /* NOAASnow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NOAASnow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFD9888527E2724000A447A7 /* NOAASnowApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NOAASnowApp.swift; sourceTree = "<group>"; };
 		CFD9888727E2724000A447A7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +51,11 @@
 		CFD9889C27E2724200A447A7 /* NOAASnowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NOAASnowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFD988A027E2724200A447A7 /* NOAASnowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NOAASnowUITests.swift; sourceTree = "<group>"; };
 		CFD988A227E2724200A447A7 /* NOAASnowUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NOAASnowUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CFD988AF27E272A600A447A7 /* NOAAService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NOAAService.swift; sourceTree = "<group>"; };
+		CFD988B227E2777800A447A7 /* Forecast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forecast.swift; sourceTree = "<group>"; };
+		CFD988B527E2804800A447A7 /* ForecastDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastDetail.swift; sourceTree = "<group>"; };
+		CFD988B727E282AE00A447A7 /* Resort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resort.swift; sourceTree = "<group>"; };
+		CFD988B927E2833900A447A7 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +83,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CFAF936C27E4EAE200F6A709 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CFD988B927E2833900A447A7 /* ViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		CFD9887927E2724000A447A7 = {
 			isa = PBXGroup;
 			children = (
@@ -95,7 +115,9 @@
 			isa = PBXGroup;
 			children = (
 				CFD9888527E2724000A447A7 /* NOAASnowApp.swift */,
-				CFD9888727E2724000A447A7 /* ContentView.swift */,
+				CFD988B427E2802600A447A7 /* Views */,
+				CFD988B127E2775900A447A7 /* Model */,
+				CFAF936C27E4EAE200F6A709 /* ViewModel */,
 				CFD9888927E2724100A447A7 /* Assets.xcassets */,
 				CFD9888B27E2724100A447A7 /* Preview Content */,
 			);
@@ -125,6 +147,26 @@
 				CFD988A227E2724200A447A7 /* NOAASnowUITestsLaunchTests.swift */,
 			);
 			path = NOAASnowUITests;
+			sourceTree = "<group>";
+		};
+		CFD988B127E2775900A447A7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CFD988AF27E272A600A447A7 /* NOAAService.swift */,
+				CFD988B227E2777800A447A7 /* Forecast.swift */,
+				CFD988B727E282AE00A447A7 /* Resort.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CFD988B427E2802600A447A7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CFD9888727E2724000A447A7 /* ContentView.swift */,
+				CFD988B527E2804800A447A7 /* ForecastDetail.swift */,
+				CF9ACFB827E939D10054FABD /* ForecastPeriodView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +299,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF9ACFB927E939D10054FABD /* ForecastPeriodView.swift in Sources */,
+				CFD988B327E2777800A447A7 /* Forecast.swift in Sources */,
 				CFD9888827E2724000A447A7 /* ContentView.swift in Sources */,
+				CFD988B627E2804800A447A7 /* ForecastDetail.swift in Sources */,
 				CFD9888627E2724000A447A7 /* NOAASnowApp.swift in Sources */,
+				CFD988B827E282AE00A447A7 /* Resort.swift in Sources */,
+				CFD988B027E272A600A447A7 /* NOAAService.swift in Sources */,
+				CFD988BA27E2833900A447A7 /* ViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
